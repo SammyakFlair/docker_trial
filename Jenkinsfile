@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Define environment variables
-        DOCKER_HUB_USERNAME = 'sammyak'
+        DOCKER_HUB_USERNAME = 'sammyak.deosale.1@gmail.com'
         DOCKER_HUB_PASSWORD = 'Samdeo@123'
         IMAGE_NAME = "sammyak/try-app-img"
         CONTAINER_NAME = "try-app-cont"
