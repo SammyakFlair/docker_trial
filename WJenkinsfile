@@ -15,7 +15,7 @@ pipeline {
                 script {
                     // Build Docker image
                     bat "npm i"
-                    bat "npm build"
+                    bat "npm run build" // Corrected command
                     bat "docker build -t ${IMAGE_NAME}:${BUILD_NUMBER} ."
                 }
             }
